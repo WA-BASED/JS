@@ -33,4 +33,9 @@ d =d.concat(k);
 //d = d.join("###");
 console.log(d.reverse());
 
-console.log(d.indexOf(32));
+//console.log(d.indexOf(32));
+
+
+for (var x in d){
+    console.log(x);
+}
